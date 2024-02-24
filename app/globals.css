@@ -48,6 +48,20 @@ body {
   box-shadow: 0px -5px 15px white;
 }
 
-.skills {
+.label-box {
   margin-top: 100px;
+}
+
+.skill-card img {
+  height: 100px;
+}
+
+.skill-card {
+  background-color: #5a5a5a;
+  color: white;
+  font-weight: bold;
+}
+
+.label-box .page-label {
+  margin: 25px 0px;
 }
