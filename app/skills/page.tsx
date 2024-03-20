@@ -11,17 +11,11 @@ import jsLogo from "@/assets/JavaScriptLogo.png";
 import tsLogo from "@/assets/TypeScriptLogo.png";
 import gitLogo from "@/assets/GitLogo.png";
 import reduxLogo from "@/assets/ReduxLogo.png";
+import dockerLogo from "@/assets/DockerLogo.webp";
+import Layout from "@/components/Layout";
 
 const Skills = () => {
     const skillsList = [
-        {
-            name: "React JS",
-            logo: reactLogo
-        },
-        {
-            name: "Next JS",
-            logo: nextLogo
-        },
         {
             name: "HTML",
             logo: htmlLogo
@@ -39,34 +33,48 @@ const Skills = () => {
             logo: jsLogo
         },
         {
-            name: "Type Script",
-            logo: tsLogo
+            name: "React JS",
+            logo: reactLogo
+        },
+        {
+            name: "Next JS",
+            logo: nextLogo
         },
         {
             name: "Redux",
             logo: reduxLogo
         },
         {
+            name: "Type Script",
+            logo: tsLogo
+        },
+        {
             name: "Git",
             logo: gitLogo
         },
+        {
+            name: "Docker",
+            logo: dockerLogo
+        }
     ];
 
     return (
-        <Box className="skills mx-10">
-            <Grid container columnGap={3} rowGap={2} className="justify-center">
-                { skillsList.map((skill)=>
-                    <Grid item key={skill.name}>
-                        <SkillsCard
-                            className="skill-card"
-                            alt={`${skill.name} logo`}
-                            skill={skill.name}
-                            src={skill.logo}
-                        />
-                    </Grid>
-                )}
-            </Grid>
-        </Box>
+        <Layout title="Skills">
+            <Box className="skills mx-10">
+                <Grid container columnGap={3} rowGap={2} className="justify-center">
+                    { skillsList.map((skill)=>
+                        <Grid item key={skill.name}>
+                            <SkillsCard
+                                className="skill-card"
+                                alt={`${skill.name} logo`}
+                                skill={skill.name}
+                                src={skill.logo}
+                            />
+                        </Grid>
+                    )}
+                </Grid>
+            </Box>
+        </Layout>
     )
 }
 
