@@ -15,7 +15,7 @@ const SkillsCard = (props: SkillsProps) => {
         <Card className={className}>
             <CardContent>
                 <Image src={src} alt={alt} width={100} height={100}/>
-                <Typography className="text-center mt-4">{skill}</Typography>
+                <p className="text-center mt-4">{skill}</p>
             </CardContent>
         </Card>
     )

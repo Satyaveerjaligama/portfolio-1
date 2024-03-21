@@ -1,0 +1,18 @@
+.contacts-container>div {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact-options {
+    color: white;
+    font-size: 10vh !important;
+    background-color: transparent !important;
+    transition: transform 0.2s, box-shadow 0.2s !important;
+    &:active {
+        transform: translateX(4px) translateY(4px) !important;
+        box-shadow: 0 0 0 #1C5C9B !important;
+    }
+    &:hover {
+        color: #798c7b;
+    }
+}

@@ -2,11 +2,10 @@ export const routes: { [index: string]: string } = {
     skills: "skills",
     projects: "projects",
     experience: "experience",
-    hobbies: "hobbies",
     contact: "contact"
 };
 
-export const navigationOptions: string [] = ["skills", "projects", "experience", "hobbies", "contact"];
+export const navigationOptions: string [] = ["skills", "projects", "experience", "contact"];
 
 export const projects = [
     {
