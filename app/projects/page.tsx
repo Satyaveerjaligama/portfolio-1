@@ -14,9 +14,9 @@ const Projects = () => {
                         <Grid item xs={12} sm={6} key={index}>
                             <Card className="project-card">
                                 <CardContent>
-                                    <Typography className="project-title">{project.projectTitle}</Typography>
+                                    <p className="project-title">{project.projectTitle}</p>
                                     <TechnologyTiles list={project.technologiesUsed} />
-                                    <Typography className="project-decription">{project.projectDescription}</Typography>
+                                    <p className="project-decription">{project.projectDescription}</p>
                                 </CardContent>
                             </Card>
                         </Grid>
