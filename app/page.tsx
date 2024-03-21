@@ -8,7 +8,7 @@ import { capitalizeFirstLetter } from "@/utilities/helper";
 
 export default function Home() {
   const router = useRouter();
-  const navigationOptions: string [] = ["skills", "projects", "experience", "hobbies", "contact"];
+  const navigationOptions: string [] = ["skills", "projects", "experience", "contact"];
 
   return (
     <Grid container className="grid place-items-center h-screen">
