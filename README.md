@@ -7,3 +7,11 @@ This project gives the information about me. This is a multi page Next JS App wi
 [Projects](http://localhost:3000/home/projects)  
 [Experience](http://localhost:3000/home/experience)  
 [Contact](http://localhost:3000/home/contact)
+
+## Technologies/Languages Used
+- TypeScript
+- React JS
+- Next JS
+- Sass
+- Tailwind
+- Material UI
