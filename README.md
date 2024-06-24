@@ -1,5 +1,5 @@
 # Portfolio 1
-This project gives the information about me. This is a multi page Next JS App with pages like Home, Skills, Projects, Experience, Contact.
+This project gives the information about me. This is a multi-page Next JS App with pages like Home, Skills, Projects, Experience, Contact. It is purely a Frontend application without any backend service linked to it.
 
 ## Routes
 [Home Page](http://localhost:3000/home)  
